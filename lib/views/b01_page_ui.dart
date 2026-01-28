@@ -103,6 +103,7 @@ class _B01PageUIState extends State<B01PageUI> {
                               shape: RoundedRectangleBorder(
                                 borderRadius: BorderRadius.circular(12),
                               ),
+                              splashFactory: NoSplash.splashFactory,
                             ),
                             child: Text(
                               'Login',
@@ -135,6 +136,7 @@ class _B01PageUIState extends State<B01PageUI> {
                               shape: RoundedRectangleBorder(
                                 borderRadius: BorderRadius.circular(12),
                               ),
+                              splashFactory: NoSplash.splashFactory,
                             ),
                             child: Text(
                               'Register',

@@ -36,7 +36,9 @@ class _B02PageUIState extends State<B02PageUI> {
                     icon: const Icon(Icons.arrow_back),
                     color: Colors.black,
                     iconSize: 28,
-                    padding: EdgeInsets.zero,
+                    padding: EdgeInsets.zero, // ลบ padding ออก
+                    constraints:
+                        const BoxConstraints(), // ล้างค่าความกว้างขั้นต่ำเพื่อให้ชิดขอบจริงๆ
                   ),
                 ),
                 SizedBox(height: screenHeight * 0.02),
